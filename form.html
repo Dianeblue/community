@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>form</title>
+  <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+  <form action="http://formspree.io/diane@duncklee.com" method="post">
+     <lable for="name">
+      <span>What do you go by?</span><br>
+  <input type="text" name="firstname" placeholder="Enter your name here" size="100" autofocus>
+    <br>
+    <lable for="password">
+      <span>What's your password?</span><br>
+  <input type="password" name="pswd" placeholder="Enter your secret words here.">
+    <br>
+    <lable for="email">
+      <span>Email</span><br>
+  <input type="email" name="userEmail" placeholder="Enter email here."><br>
+    <label for="radio">
+      <span>Which do you choose?</span>
+  <input type="radio" name="weird" value="code-red" checked><span>select me!</span>
+  <input type="radio" name="weird" value="code-red"><span>or select me...</span><br>
+    <label for="hobbies">
+      <span>Check all that apply to you.</span><br>
+  <input type="checkbox" name="hobbies" value="sleeping" checked>sleeping
+  <input type="checkbox" name="hobbies" value="drinking">drinking
+  <input type="checkbox" name="hobbies" value="repeating">repeating<br>
+
+
+  <select name="beer">
+  <optgroup label="craft">
+  <option value="dark">porter</option>
+  <option value="light">ale</option>
+
+
+  </optgroup>
+  </select>
+  <textarea name="user_message" rows="8" cols="40"></textarea>
+  <input type="submit">
+  </form>
+
+
+</body>
+</html>

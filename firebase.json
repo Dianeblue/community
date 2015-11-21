@@ -1,0 +1,9 @@
+{
+  "firebase": "craftyfirebase",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
